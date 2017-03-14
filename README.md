@@ -5,10 +5,10 @@
 - [ ] blocks
 - [ ] collections
 - [ ] direct_messages
-- [ ] favorites
-- [ ] followers
-- [ ] friends
-- [ ] friendships
+- [x] favorites
+- [x] followers
+- [x] friends
+- [x] friendships
 - [ ] geo
 - [ ] help
 - [ ] lists

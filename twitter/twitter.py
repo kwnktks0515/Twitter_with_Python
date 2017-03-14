@@ -11,6 +11,9 @@ from twitter.search import Search
 from twitter.saved_searches import SavedSearches
 from twitter.mutes import Mutes
 from twitter.friendships import Friendships
+from twitter.friends import Friends
+from twitter.followers import Followers
+from twitter.favorites import Favorites
 from requests_oauthlib import OAuth1Session
 
 class Twitter:
@@ -26,7 +29,9 @@ class Twitter:
         self.saved_searches = SavedSearches(self.core)
         self.mutes = Mutes(self.core)
         self.friendships = Friendships(self.core)
-
+        self.friends = Friends(self.core)
+        self.followers = Followers(self.core)
+        self.favorites = Favorites(self.core)
 
     def search_tweets(self):
         """Hello"""
