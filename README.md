@@ -1,10 +1,10 @@
 # Twitter_with_Python
 
 - [ ] account
-- [ ] application
-- [ ] blocks
+- [x] application
+- [x] blocks
 - [ ] collections
-- [ ] direct_messages
+- [x] direct_messages
 - [x] favorites
 - [x] followers
 - [x] friends

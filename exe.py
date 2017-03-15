@@ -9,6 +9,3 @@ if __name__ == "__main__":
         access_token="xx",
         access_token_secret="xx"
     )
-
-    # ----- application ----- Bat
-    #TWITTER.rate_limit_status({})

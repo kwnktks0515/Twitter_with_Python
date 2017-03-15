@@ -14,6 +14,9 @@ from twitter.friendships import Friendships
 from twitter.friends import Friends
 from twitter.followers import Followers
 from twitter.favorites import Favorites
+from twitter.direct_message import DirectMessages
+from twitter.blocks import Blocks
+from twitter.application import Application
 from requests_oauthlib import OAuth1Session
 
 class Twitter:
@@ -32,6 +35,9 @@ class Twitter:
         self.friends = Friends(self.core)
         self.followers = Followers(self.core)
         self.favorites = Favorites(self.core)
+        self.direct_message = DirectMessages(self.core)
+        self.blocks = Blocks(self.core)
+        self.application = Application(self.core)
 
     def search_tweets(self):
         """Hello"""

@@ -27,3 +27,5 @@ class EntityData(Minimum):
     """H"""
 class ListData(Minimum):
     """H"""
+class DirectMessageData(Minimum):
+    """H"""
